@@ -1,0 +1,73 @@
+body{ background: none !important; }
+
+header {
+    width: 100%;
+    background: #dc6552;
+    height: auto;
+    padding: .9375rem;
+}
+@media screen and (min-width: 53.75em){ 
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 20rem;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 53.75em){
+    .arp-main {
+        margin-left: 20rem;
+    }
+}
+
+section{
+    border-bottom: 1px solid #aaa;
+    padding: 0 30px;
+}
+section h1{
+    font-family: 'Saira Extra Condensed';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:2.5rem;
+}
+
+.arp-img{
+    padding: 3px;
+    box-shadow: 0px 0px 5px #aaa;
+    background: #fff;
+}
+.arp-menu{
+    margin-top:10%;
+}
+.arp-menu ul li{
+    padding: 5px 0;
+}
+.arp-menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.arp-line{
+    border-top: 1px solid #aaa;
+}
+.arp-margin0{ margin:0 !important; }
+.arp-margin5{ margin:5px 0px !important; }
+
+#education .content h3, #aboutme .content h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+#education .content, #aboutme .content{
+    margin-bottom: 3em;
+}
+
+.card.small .arp-card-image{
+    max-width: 51%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
