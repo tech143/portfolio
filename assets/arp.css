@@ -1,5 +1,8 @@
 body{ background: none !important; }
-
+span.badge {
+    margin-left: 0 !important;
+    float: none !important;
+}
 header {
     width: 100%;
     background: #dc6552;
